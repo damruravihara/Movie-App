@@ -18,6 +18,7 @@ const ViewFilm = props =>{
 
   let history = useHistory();
   let path = '/public/login';
+  let path2 = '/user/allfilms'
   const [film, setFilm] = useState([]);
   const {id} = useParams();
 
@@ -45,10 +46,8 @@ const deleteFilm=(id) =>{
         
       if (willDelete) {
         swal("The Film has been deleted!", 
-        {icon :"success",});  
-        setTimeout(function(){
-        window.location.reload();
-         },1000);
+        {icon :"success",});
+        history.push(path2);  
       } else {
         swal("Film Is Not Deleted");}
     })
