@@ -114,8 +114,8 @@ export default function Register(){
       icon: "success",
       button: "Ok",
     });history.push(path);
-    }).catch((err)=>{
-      swal("Please fill Form correctly" +err);
+    }).catch(()=>{
+      swal("Please fill Form correctly");
     })
 
 
