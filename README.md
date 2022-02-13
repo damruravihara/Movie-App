@@ -3,7 +3,7 @@ MOVIE SHELF is an Web application that help to manage movies. Users can create a
 
 ### Used Technologies
 * MERN STACK
-* Cloudinary 
+* [Cloudinary](https://cloudinary.com/) 
 
 ## How to Deploy Project
 
