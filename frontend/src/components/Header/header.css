@@ -1,0 +1,9 @@
+/* .headerback{
+  color: #FFE699;
+  background-color: #FFE699;
+} */
+
+.nav-item:hover {
+  background-color: #1a202c; 
+  color: black;
+}
