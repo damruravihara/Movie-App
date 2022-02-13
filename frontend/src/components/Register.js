@@ -172,8 +172,8 @@ export default function Register(){
                       } } required/>
                       <label for="floatingInput">Username</label>
                       {/* {errors.username && (<p>*Username must be minimum 6 letters and maximum 15 letters </p>)} */}
-                      {errors?.username?.type=== "minLength" && (<p>*Username must be minimum 6 letters</p>)}
-                      {errors?.username?.type=== "maxLength" && (<p>*Username must be maximum 15 letters</p>)}
+                      {errors?.username?.type=== "minLength" && (<p style={{ color:"red"}}>*Username must be minimum 6 letters</p>)}
+                      {errors?.username?.type=== "maxLength" && (<p style={{ color:"red"}}>*Username must be maximum 15 letters</p>)}
              
           </div>
 
@@ -183,7 +183,7 @@ export default function Register(){
                         setEmail(e.target.value);
                       } } required/>
                       <label for="floatingInput">Email Address</label>
-                      {errors.email && (<p>*email format is Incorrect</p> )}
+                      {errors.email && (<p style={{ color:"red"}}>*email format is Incorrect</p> )}
                   </div>
         </div>
         <br/>
@@ -196,7 +196,7 @@ export default function Register(){
                       <span class="input-group-text" id="basic-addon2"><i className="eye1" onClick={togglePasswordVisiblity}>{eye}</i></span>
                       <label for="floatingInput">Password</label>
                       {/* <button class="btn bg-white text-muted"> <span class="far fa-eye-slash"></span> </button> */}
-                      {errors?.password?.type === "minLength" && (<p>*Password must contain minimum 8 characters </p> )}
+                      {errors?.password?.type === "minLength" && (<p style={{ color:"red"}}>*Password must contain minimum 8 characters </p> )}
              
           </div>
 

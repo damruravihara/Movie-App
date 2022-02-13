@@ -163,8 +163,8 @@ export default function AddFilms(){
                 setDuration(e.target.value);
               } } required/>
               <label for="floatingInput">Duration</label>
-              <p>*Please Use duration pattern 00h 00m</p>
-              {errors.duration && (<p>*Please use correct pattern</p> )}
+              <p style={{ color:"red"}}>*Please Use duration pattern 00h 00m</p>
+              {errors.duration && (<p style={{ color:"red"}}>*Please use correct pattern</p> )}
       
   </div>
 

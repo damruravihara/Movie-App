@@ -135,7 +135,7 @@ export default function Updateprofile(){
                         setEmail(e.target.value);
                       } } required/>
                       <label for="floatingInput">Email Address</label>
-                      {errors.email && (<p>*email format is Incorrect</p> )}
+                      {errors.email && (<p style={{ color:"red"}}>*email format is Incorrect</p> )}
              
           </div>
 

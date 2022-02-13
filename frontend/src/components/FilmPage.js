@@ -43,9 +43,7 @@ export default function AllFilms(){
     const getfilm = async()=>{
      const res = await axios.get('/film/allfilms').then((res)=>{
       setFilm(res.data);
-      }).catch((e)=>{
-        alert(e); 
-    })
+      })
     }
     getfilm();
   }, []);
