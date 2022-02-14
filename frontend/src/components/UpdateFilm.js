@@ -67,7 +67,7 @@ export default function UpdateFim(){
     }).catch((e)=>{
       history.push(path);
       swal({title: "unauthorized",
-      text: "Please Login First " +e,
+      text: "Please Login First ",
       icon: "warning"} ); 
   })
 }, [])
@@ -96,7 +96,7 @@ icon: "success",
 button: "Ok",
 });history.push('/user/viewfilm/' +film._id);
   }).catch((e)=>{
-     swal("Please fill Form correctly " +e);
+     swal("Please fill Form correctly ");
     })
 
 };

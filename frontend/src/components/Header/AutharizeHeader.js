@@ -42,7 +42,7 @@ const Header = props =>{
             swal("Success", 
               "Successfully Logout",
               {icon: "success"}
-            )
+            );
           } 
           // else {
           //   swal("Your Not Logout");}

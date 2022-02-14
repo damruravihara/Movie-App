@@ -30,7 +30,7 @@ const Login = props=>{
   const onSubmit = e =>{
 
     Authentication.login(user).then(data=>{
-      
+      const { isAuthenticated,user,message} = data;
       if(isAuthenticated){
         authContext.setUser(user);
         authContext.setIsAuthenticated(isAuthenticated);

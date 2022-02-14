@@ -53,61 +53,19 @@ export default function Register(){
       console.log(err)
     })
 
-    // const newUser ={
 
-    //   firstname,
-    //   lastname,
-    //   profilepic,
-    //   email,
-    //   username,
-    //   password,
-    //   // role="user"
-    // }
-
-    // axios.post("http://localhost:8070/user/Tregister",newUser).then(()=>{
-    //  // refresh()
-    //   swal({
-    //   title: "Success!",
-    //   text: "Supplier Successfully registered",
-    //   icon: "success",
-    //   button: "Ok",
-    // });history.push(path);
-    // }).catch((err)=>{
-    //   swal("Please fill Form correctly" +err);
-    // })
   }
-  function sendData(e){
-   
-    // const data = new FormData()
-    // data.append("file",image)
-    // data.append("upload_preset","movie-app")
-    // data.append("cloud_name","padfoot")
-    // fetch("https://api.cloudinary.com/v1_1/padfoot/image/upload",{
-    //   method:"post",
-    //   body:data 
-    // })
-    // .then(res=>res.json())
-    // .then(data=>{
-    //   setProfilePic(data.url)
-    // })
-    // .catch(err=>{
-    //   console.log(err)
-    // })
-    // e.preventDefault();
-    
+  function sendData(e){ 
     const newUser ={
-
       firstname,
       lastname,
       profilepic,
       email,
       username,
       password,
-      // role="user"
     }
 
     axios.post("http://localhost:8070/user/Tregister",newUser).then(()=>{
-     // refresh()
       swal({
       title: "Success!",
       text: "Supplier Successfully registered",
@@ -117,8 +75,6 @@ export default function Register(){
     }).catch(()=>{
       swal("Please fill Form correctly");
     })
-
-
   };
   
 

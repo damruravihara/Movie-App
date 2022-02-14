@@ -82,7 +82,7 @@ export default function Updateprofile(){
   button: "Ok",
 });history.push(path2);
     }).catch((e)=>{
-       swal("Please fill Form correctly " +e);
+       swal("Please fill Form correctly ");
       })
 
 };

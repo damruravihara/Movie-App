@@ -28,7 +28,7 @@ const ViewFilm = props =>{
     }).catch((e)=>{
       history.push(path);
       swal({title: "unauthorized",
-      text: "Please Login First " +e,
+      text: "Please Login First ",
       icon: "warning"} ); 
   })
 }, [])
