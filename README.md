@@ -7,13 +7,13 @@ MOVIE SHELF is an Web application that help to manage movies. Users can create a
 
 ## How to Deploy Project
 
-### For install npm modules use:
+### To install npm modules use:
 ### `npm install` for both BACKEND & FRONTEND
 
-### For Start BACKEND:
+### To Start BACKEND:
 ### `npm run dev`
 
-### For Start FRONTEND:
+### To Start FRONTEND:
 ### `npm start`
 
 ### First Page is [http://localhost:3000/public/login](http://localhost:3000/public/login)
