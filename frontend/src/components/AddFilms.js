@@ -21,7 +21,7 @@ export default function AddFilms(){
   const [trailer, setTrailer] = useState("");
   const [filmimage, setFilmImage] = useState("");
   const [filmyear, setFilmYear] = useState("");
-  const [image, setImage] = useState("");
+  // const [image, setImage] = useState("");
   const [genres,setGenres] = useState("");
   const [state,setState] = useState("");
   const [duration,setDuration] = useState("");
@@ -88,7 +88,7 @@ export default function AddFilms(){
         button: "Ok",
       });history.push(path2);
       }).catch((e)=>{
-        swal("Please fill Form correctly " +e);
+        swal("Please fill Form correctly");
     })
   };
 

@@ -89,7 +89,7 @@ export default function AllFilms(){
                       <div className="row g-3">
                         <div className="column filmpage-imagecol">
                           <div className="filmimage">
-                          <center><img src={logo} className="filmimg" style={{width: "200px", margin:"20px"}}/> </center>
+                          <center><img src={logo} className="filmimg2"/> </center>
                           </div>
                           </div>
                        <div className="column filmpage-namecol">

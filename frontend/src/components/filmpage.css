@@ -110,6 +110,11 @@
    margin: 20px;
 }
 
+.filmimg2{
+  width: 200px;
+   margin: 20px;
+}
+
 @media only screen and (max-width: 600px) {
   .filmpage{
     width: 430px;
@@ -128,5 +133,9 @@
   .filmicon{
     float: left;
     width: 15%;
+  }
+  .filmimg2{
+    width: 100px;
+     margin: 20px;
   }
 }
